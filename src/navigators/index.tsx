@@ -13,12 +13,13 @@ import Home from '../screens/home';
 import Hula from '../screens/hula';
 import Surfing from '../screens/surfing';
 import Volcano from '../screens/volcano';
+import Header from '../components/Header';
 
 const Tab = createBottomTabNavigator();
 
 const AppNavigator = () => (
   <NavigationContainer>
-    <Tab.Navigator>
+    <Tab.Navigator screenOptions={{header: Header}}>
       <Tab.Screen name="Home" component={Home} />
       <Tab.Screen name="Surfing" component={Surfing} />
       <Tab.Screen name="Hula" component={Hula} />
