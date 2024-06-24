@@ -6,6 +6,7 @@ export const Colors = {
   cardBg: '#fff',
   primary: '#008080',
   darkText: '#001A1A',
+  lightText: '#fff',
 };
 
 export const Spacing = {
