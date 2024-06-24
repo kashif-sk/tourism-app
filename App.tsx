@@ -1,7 +1,7 @@
 import React from 'react';
 import {SafeAreaProvider} from 'react-native-safe-area-context';
 import AppNavigator from './src/navigators';
-import './src/api';
+import './src/api/interceptor';
 
 function App() {
   return (
