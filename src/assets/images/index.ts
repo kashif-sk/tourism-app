@@ -5,6 +5,8 @@ const images = {
   hula: require('./Hula.png'),
   vulcanoes: require('./Vulcanoes.png'),
   arrowRight: require('./ArrowRight.png'),
+  surfingLogo: require('./SurfingLogo.png'),
+  guide: require('./Guide.png'),
 };
 
 export default images;
