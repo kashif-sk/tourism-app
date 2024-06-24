@@ -5,6 +5,7 @@ import images from '../../assets/images';
 import HighlightContainer from './components/HighlightContainer';
 import CategoryContainer from './components/CategoryContainer';
 import Button from '../../components/Button';
+import GuideCard from '../../components/GuideCard';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <Image source={images.welcome} style={styles.image} />
         <HighlightContainer />
         <CategoryContainer />
+        <GuideCard />
       </ScrollView>
       <Button label="Book a trip" addMarginHorizontal showAsBottomAbsolute />
     </>
