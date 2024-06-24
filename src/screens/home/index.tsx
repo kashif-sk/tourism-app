@@ -1,12 +1,17 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import {Image, ScrollView} from 'react-native';
 import styles from './styles';
+import images from '../../assets/images';
+import HighlightContainer from './components/HighlightContainer';
+import CategoryContainer from './components/CategoryContainer';
 
 const Home = () => {
   return (
-    <View style={styles.container}>
-      <Text>Home</Text>
-    </View>
+    <ScrollView style={styles.container}>
+      <Image source={images.welcome} style={styles.image} />
+      <HighlightContainer />
+      <CategoryContainer />
+    </ScrollView>
   );
 };
 
