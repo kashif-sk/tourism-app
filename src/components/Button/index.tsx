@@ -7,6 +7,7 @@ const Button = ({
   label,
   addMarginHorizontal,
   showAsBottomAbsolute,
+  onPress,
 }: ButtonProps) => {
   return (
     <TouchableOpacity
@@ -14,7 +15,8 @@ const Button = ({
         styles.container,
         addMarginHorizontal && styles.marginHorizontal,
         showAsBottomAbsolute && styles.bottomAbsolute,
-      ]}>
+      ]}
+      onPress={onPress}>
       <Text style={styles.label}>{label}</Text>
     </TouchableOpacity>
   );

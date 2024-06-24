@@ -4,6 +4,7 @@ export interface ButtonProps {
   label: string;
   addMarginHorizontal?: boolean;
   showAsBottomAbsolute?: boolean;
+  onPress?: () => void;
 }
 
 export type ButtonStyle = {
